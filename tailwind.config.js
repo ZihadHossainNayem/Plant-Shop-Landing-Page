@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        chillax: ["Chillax", "sans"],
+        steppe: ["Steppe Trial", "sans"],
+      },
+    },
   },
   plugins: [],
 };

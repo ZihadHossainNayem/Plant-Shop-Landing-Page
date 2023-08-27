@@ -31,7 +31,7 @@ const Navbar = () => {
   const [sideMenu, setSideMenu] = useState(false);
 
   return (
-    <div className="bg-[#004f44] text-white h-[80px] lg:px-48 md:px-12 px-4 flex justify-between items-center">
+    <div className="bg-[#004f44] text-white h-[120px] xl:px-48 lg:px-16 md:px-12 px-4 flex justify-between items-center">
       {/* left section */}
       <div className="flex items-center gap-2">
         <PiPottedPlantBold className="md:w-8 md:h-8 w-6 h-6" />
