@@ -3,7 +3,6 @@ import { BsArrowRight } from "react-icons/bs";
 import image1 from "../assets/image 1.png";
 import image2 from "../assets/image 2.png";
 import image3 from "../assets/image 3.png";
-import pattern from "../assets/pattern.png";
 
 const Hero = () => {
   return (
@@ -30,7 +29,7 @@ const Hero = () => {
         </div>
 
         {/* right */}
-        <div className="col-span-3 h-screen flex flex-col justify-center lg:items-end items-center">
+        <div className="col-span-3 h-screen hidden md:flex flex-col justify-center lg:items-end items-center">
           <div className="grid grid-cols-12 ">
             {/* white grid */}
             <div className="col-span-1 hidden lg:flex"></div>
