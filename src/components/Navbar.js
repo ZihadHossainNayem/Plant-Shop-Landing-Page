@@ -57,7 +57,7 @@ const Navbar = () => {
             )}
           </a>
           {showProductDropdown && (
-            <ul className="absolute top-8 left-0 bg-white border rounded-lg p-2 text-[#004f44] w-40 space-y-4">
+            <ul className="absolute top-8 left-0 bg-white border rounded-lg px-6 py-4 text-[#004f44] w-48 space-y-4 z-[9999]">
               <li>
                 <a href="/plant-care">Plant Care</a>
               </li>
