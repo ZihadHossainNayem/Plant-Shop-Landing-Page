@@ -19,7 +19,9 @@ const Featured = () => {
     <div className="xl:px-48 lg:px-16 md:px-12 px-4 py-12">
       {/* featured title, view all button */}
       <div className="flex justify-between">
-        <h1 className="font-steppe text-4xl text-[#004f44]">Featured</h1>
+        <h1 className="font-steppe font-medium text-4xl text-[#004f44]">
+          Featured
+        </h1>
         <button className="font-steppe text-xl text-[#004f44]">view all</button>
       </div>
       {/* full slider */}
