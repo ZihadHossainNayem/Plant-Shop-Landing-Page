@@ -1,4 +1,6 @@
+import AboutUs from "./components/AboutUs";
 import BestSelling from "./components/BestSelling";
+import Categories from "./components/Categories";
 import Featured from "./components/Featured";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -12,6 +14,8 @@ function App() {
       <Featured />
       <Search />
       <BestSelling />
+      <AboutUs />
+      <Categories />
     </div>
   );
 }

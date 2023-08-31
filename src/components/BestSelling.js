@@ -14,7 +14,9 @@ const BestSelling = () => {
             Best Selling Plants
           </h1>
           <p className="text-gray-600 font-steppe">
-            Easiest way to healthy life by buying your favorite plants{" "}
+            Easiest way to a healthier life. Elevate your space with nature's
+            beauty and well-being. Explore a variety of plants that add
+            freshness and joy.
           </p>
           <button className="font-steppe flex items-center gap-2 bg-[#004f44] px-4 py-2 rounded text-white w-36">
             See more <BsArrowRight />
