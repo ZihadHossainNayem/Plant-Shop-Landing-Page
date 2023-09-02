@@ -16,15 +16,13 @@ const AboutUs = () => {
         </p>
       </div>
       {/* services */}
-      <div className="w-full grid md:grid-cols-3 grid-cols-1 gap-4 pt-8 md:space-y-0 space-y-8">
+      <div className="w-full grid md:grid-cols-3 grid-cols-1 gap-8 pt-8 md:space-y-0 space-y-4">
         {/* 1st */}
         <div className="flex flex-col items-center space-y-4">
           <div className="w-14 h-14 bg-[#004f44] flex justify-center items-center rounded-[50%]">
             <LiaShippingFastSolid className="w-8 h-8 text-white" />
           </div>
-          <p className="text-xl font-medium font-steppe text-center">
-            Large Assortment
-          </p>
+          <p className="text-xl font-medium text-center">Large Assortment</p>
           <span className="text-center text-gray-600 font-steppe">
             we offer many different types of products with fewer variations in
             each category.
@@ -35,7 +33,7 @@ const AboutUs = () => {
           <div className="w-14 h-14 bg-[#004f44] flex justify-center items-center rounded-[50%]">
             <PiPottedPlant className="w-8 h-8 text-white" />
           </div>
-          <p className="text-xl font-medium font-steppe text-center">
+          <p className="text-xl font-medium text-center">
             Fast & Free Shipping
           </p>
           <span className="text-center text-gray-600 font-steppe">
@@ -49,9 +47,7 @@ const AboutUs = () => {
           <div className="w-14 h-14 bg-[#004f44] flex justify-center items-center rounded-[50%]">
             <BiPhoneCall className="w-8 h-8 text-white" />
           </div>
-          <p className="text-xl font-medium font-steppe text-center">
-            24/7 Support
-          </p>
+          <p className="text-xl font-medium text-center">24/7 Support</p>
           <span className="text-center text-gray-600 font-steppe">
             answers to any business related inquiry 24/7 and in real-time.
           </span>

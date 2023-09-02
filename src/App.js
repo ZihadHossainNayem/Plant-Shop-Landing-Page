@@ -1,6 +1,7 @@
 import AboutUs from "./components/AboutUs";
 import BestSelling from "./components/BestSelling";
 import Categories from "./components/Categories";
+import CustomerComments from "./components/CustomerComments";
 import Featured from "./components/Featured";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -16,6 +17,7 @@ function App() {
       <BestSelling />
       <AboutUs />
       <Categories />
+      <CustomerComments />
     </div>
   );
 }

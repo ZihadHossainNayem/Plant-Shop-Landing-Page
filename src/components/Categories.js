@@ -18,7 +18,7 @@ const Categories = () => {
       {/* content */}
       <div className="flex flex-col md:flex-row gap-8 justify-between pt-8 ">
         {/* 1st */}
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center cursor-pointer">
           <img
             src={frame36}
             alt=""
@@ -29,7 +29,7 @@ const Categories = () => {
           </h1>
         </div>
         {/* 2nd */}
-        <div className="flex flex-col justify-center items-center md:pt-32 pt-0">
+        <div className="flex flex-col justify-center items-center md:pt-32 pt-0  cursor-pointer">
           <img
             src={frame37}
             alt=""
@@ -40,7 +40,7 @@ const Categories = () => {
           </h1>
         </div>
         {/* 3rd */}
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center  cursor-pointer">
           <img
             src={frame38}
             alt=""
