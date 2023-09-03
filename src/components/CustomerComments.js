@@ -14,7 +14,7 @@ import { Navigation, Pagination, Keyboard } from "swiper/modules";
 
 const CustomerComments = () => {
   return (
-    <div className="xl:px-48 lg:px-16 md:px-12 px-4 py-12 bg-[#F3FFFC] ">
+    <div className="xl:px-48 lg:px-16 md:px-12 px-4 py-12 ">
       <h1 className="pb-8 text-2xl font-steppe text-[#004f44] font-medium">
         What customers say about Plantify?
       </h1>

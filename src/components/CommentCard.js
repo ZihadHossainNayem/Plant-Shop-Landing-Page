@@ -4,11 +4,11 @@ import { AiFillStar } from "react-icons/ai";
 
 const CommentCard = ({ commentData }) => {
   return (
-    <div className="bg-white rounded-xl max-w-[700px] py-8 px-12 cursor-default">
+    <div className="bg-[#F3FFFC]  border shadow-lg rounded-xl max-w-[700px] md:py-8 py-4 md:px-12 px-6 cursor-default md:h-[240px] h-[270px]">
       {/* comment */}
       <p className="font-steppe">{commentData.comment}</p>
-      <div className="pt-8 flex justify-between px-2">
-        <div className="flex gap-4 items-start">
+      <div className="md:pt-12 pt-8 flex justify-between px-0 md:px-2">
+        <div className="flex md:gap-4 gap-2 items-start">
           <BsQuote size={35} />
           <div>
             <h1 className="font-semibold text-xl">{commentData.name}</h1>

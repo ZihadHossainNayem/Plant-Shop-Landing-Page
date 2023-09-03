@@ -16,7 +16,7 @@ const Categories = () => {
         </p>
       </div>
       {/* content */}
-      <div className="flex flex-col md:flex-row gap-8 justify-between pt-8 ">
+      <div className="flex flex-col md:flex-row gap-8 justify-between ">
         {/* 1st */}
         <div className="flex flex-col justify-center items-center cursor-pointer">
           <img
